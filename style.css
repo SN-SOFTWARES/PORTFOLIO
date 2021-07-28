@@ -94,3 +94,13 @@ a:hover{
 .testimonials-head{
 color: white !important;
 }
+.news-pic img {
+    width: 254px;
+}
+
+.col-lg-3 {
+    float: left;
+}
+.news-head{
+    color: black !important;
+}
