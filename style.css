@@ -1,0 +1,96 @@
+a:hover{
+    text-decoration: none;
+}
+#header{
+    color:white;
+    background: #e74c3c;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+      display: inline-block;
+}
+#menu li a{
+        color:white;
+        padding: 15px 10px;
+        display: block;
+}
+#menu li a:hover{
+        background: #c0392b;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#banner{
+    background: url(pictures/banner.jpg) no-repeat 0;
+    background-size: cover;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(231,76,60,0.7);
+    margin: 12px;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fas{
+    font-size: 70px;
+    color:#e74c3c ;
+    margin-bottom: 15px;
+}
+.service-box i.fab{
+    font-size: 70px;
+    color:#e74c3c ;
+    margin-bottom: 15px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color:#000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+    display: block;
+    content:"";
+    background: #e74c3c;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#testimonials{
+    color: white;
+    background: linear-gradient(#00000061,#00000061),url(pictures/banner2.jpg) no-repeat 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+.testtimonials img{
+    width: 40px;
+    border-radius: 50%;
+}
+.testtimonials::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonials-head{
+color: white !important;
+}
