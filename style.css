@@ -124,3 +124,16 @@ i.far.fa-calendar-alt {
 .readmore a:hover{
     color:#f09e95 !important;
 }
+#footer-sidebar{
+    color: #fff;
+    background:#34495e;
+    margin-top: 350px;
+    padding: 20px 0;
+}#footer {
+    background: #456c94;
+    color: white;
+    height: 45px;
+}
+.footer-bar {
+    padding-top: 11px;
+}
