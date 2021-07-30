@@ -137,3 +137,23 @@ i.far.fa-calendar-alt {
 .footer-bar {
     padding-top: 11px;
 }
+
+@media (min-width:768px){
+    div#news {
+        padding-bottom: 415px;
+    }
+    .section-padding{
+        padding-bottom: 36px;
+    }
+    #testimonials{
+        text-align: center;
+    }
+    .footer-width{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:500px) {
+    #testimonials{
+        text-align: center;
+    }
+}
